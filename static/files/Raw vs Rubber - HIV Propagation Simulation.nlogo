@@ -452,7 +452,7 @@ TEXTBOX
 167
 Probability that HIV+ infects their partner
 11
-0.0
+5.0
 1
 
 TEXTBOX
@@ -462,7 +462,7 @@ TEXTBOX
 232
 Time when critical symptoms appear
 11
-0.0
+5.0
 1
 
 @#$#@#$#@
