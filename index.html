@@ -99,19 +99,15 @@
             <p class="main">
                 Now let us see this in action, but with a population of 400 and 3% of it are initially infected. Note that in this simulation, no one uses a condom and refuses to get tested.
             </p>
-            <a class="jump" href="#embedded-sim">
-                <button class="jump">Jump to the interactive simulation</button>
-            </a>
-            <div class="video-box">
-                <video src="static/videos/03 Pure outbreak.mp4" controls controlslist="nofullscreen nodownload noremoteplayback noplaybackrate foobar" loop>
-                    Sorry, your browser doesn't support embedded videos.
-                </video>
-            </div>
+            <p class="main">
+                To run the subsequent simulations, first, click the <b>initialize</b> button to generate the population. Then, click <b>run</b>.
+            </p>
+            <iframe id="html-sim-no-precaution" class="simulation-embed-small" src="/static/files/specifics/No Precaution.html" style="display:none;"></iframe>
             <p class="main">
                 According to Mayo Clinic (2022), chronic to severe symptoms that make an individual realize that they might have HIV, usually nearing the stage of AIDS, appear in about 8 to 10 years<sup><a href="https://www.mayoclinic.org/diseases-conditions/hiv-aids/symptoms-causes/syc-20373524" target="_blank">[8]</a></sup>. But for the sake of visualization of the simulation, the onset of symptoms is set to two years.
             </p>
             <p class="main">
-                The simulation above revealed that if nobody practices safe sex and declines to regularly get tested, HIV infects the entire population within 235 months or about 19.6 years. Eventually, all people are fully aware of being HIV+ for 332 months. NIH (2021) says that if the disease is left untreated using antiretroviral therapy (ART), the virus then progresses to AIDS<sup><a href="https://hivinfo.nih.gov/understanding-hiv/fact-sheets/hiv-treatment-basics" target="_blank">[9]</a></sup>. Hence, the population's days are numbered.
+                The simulation above revealed that if nobody practices safe sex and declines to regularly get tested, HIV infects the entire population within 300 months or about 25 years. By then, the entire population is fully aware of their being HIV positive. Additionally, NIH (2021) says that if the disease is left untreated using antiretroviral therapy (ART), the virus will eventually progress to AIDS<sup><a href="https://hivinfo.nih.gov/understanding-hiv/fact-sheets/hiv-treatment-basics" target="_blank">[9]</a></sup>.
             </p>
             <p class="main">
                 So, we add our first preventative strategy—condom use for the uninfected and HIV? individuals based on the percentage of the infected in the population. This is adapted from the study conducted by Li, Zhang, & Bi (2011)<sup><a href="https://www.sciencedirect.com/science/article/pii/S1877705811016043" target="_blank">[10]</a></sup>.
@@ -124,51 +120,39 @@
             <p class="main">
                 Note that in the following simulations, persons that know they are HIV+ will always use condoms during sexual activities.
             </p>
-            <div class="video-box">
-                <video src="static/videos/04 Condom.mp4" controls controlslist="nofullscreen nodownload noremoteplayback noplaybackrate foobar" loop>
-                    Sorry, your browser doesn't support embedded videos.
-                </video>
-            </div>
+            <iframe id="html-sim-using-condoms" class="simulation-embed-small" src="/static/files/specifics/Using Condoms.html" style="display:none;"></iframe>
             <p class="main">
-                Initially, the cases of infected individuals seem to grow exponentially. But as soon as the reported cases of HIV+ reached around 25% because chronic symptoms started to appear, the cases start to level out in the 291st month when 39.5% of the population is infected. This demonstrates that, to some degree, using condoms halts the transmission rate of the virus.
+                Initially, the cases of infected individuals seem to grow exponentially. But as soon as the reported cases of HIV+ reached around 25%-30%, new cases begin to  slow down, and eventually level out in the following months. This demonstrates that if people start to practice safe sex amid an HIV outbreak, it will, in time, mitigate new infections.
             </p>
             <p class="main">
-                Smith et al. (2015) found that consistent condom use among serodiscordant homosexual partners (that is when the partners are aware that one is HIV+ and the other is not) is 70% effective against HIV transmission. Moreover, they concluded that there is no significant protection against infection when only using sometimes to not using<sup><a href="https://journals.lww.com/jaids/FullText/2015/03010/Condom_Effectiveness_for_HIV_Prevention_by.14.aspx" target="_blank">[11]</a></sup>.
+                Smith et al. (2015) found that consistent condom use among serodiscordant homosexual partners (that is when the partners are aware that one is HIV+ and the other is not) is 70% effective against HIV transmission. Moreover, they concluded that there is no significant protection against an infection when they only use it occasionally<sup><a href="https://journals.lww.com/jaids/FullText/2015/03010/Condom_Effectiveness_for_HIV_Prevention_by.14.aspx" target="_blank">[11]</a></sup>.
             </p>
             <p class="main">
                 Now, what if the population still prefers unprotected sex but gets tested for HIV according to the percentage of infected in the population?
             </p>
             <ul>
                 <li class="list">If 0%—10% of the population is HIV+, uninfected and unsuspected individuals refuse to get tested.</li>
-                <li class="list">If 10%—20% of the population is HIV+, uninfected and unsuspected individuals would occasionally get tested (<1 time/year).</li>
-                <li class="list">And if it is greater than 20%, HIV- & HIV? individuals will frequently get tested (≥1 time/year).</li>
+                <li class="list">If 10%—20% of the population is HIV+, uninfected and unsuspected individuals would seldom get tested (<0.25 times/year).</li>
+                <li class="list">And if it is greater than 20%, HIV- & HIV? individuals will frequently get tested (<1 time/year).</li>
             </ul>
-            <div class="video-box">
-                <video src="static/videos/05 Testing.mp4" controls controlslist="nofullscreen nodownload noremoteplayback noplaybackrate foobar" loop>
-                    Sorry, your browser doesn't support embedded videos.
-                </video>
-            </div>
+            <iframe id="html-sim-frequent-testing" class="simulation-embed-small" src="/static/files/specifics/Frequent Testing.html" style="display:none;"></iframe>
             <p class="main">
-                Like the simulation of condom use, increasing the frequency of HIV testing mitigates the transmission of HIV. Here, the cases began to flatten in 250 months when 42.25% is reported to be positive. It goes to show that increasing the testing rate for HIV is about on par or slightly underperforming compared to consistent condom use.
+                Like the simulation of condom use, increasing the frequency of HIV testing alleviates the transmission of HIV. In this simulation, as soon as the reported positive cases reached around 15%, people would often get tested. More HIV? updated their serostatus to HIV+ and subsequently used condoms for every sexual activity. Hence, the cases flattened much earlier than before. It goes to show that knowing your and your partner's serostatus is essential in preventing HIV contraction.
             </p>
             <p class="main">
                 Bendavid et al. (2010) reported that there is a 55.5% reduction in new HIV infections over 10 years when the persons at risk have linkage to care. Additionally, this is greatly improved to around 69.7%-76.7% reduction when high-risk persons are given comprehensive HIV care<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2921232/" target="_blank">[12]</a></sup>.
             </p>
             <p class="main">
-                Hmm. How about we add the tendency of individuals to enter a new relationship into the equation? Just like previously, we form the following conditions:
+                Hmm. How about we add the abstinence or the tendency of an individual to enter a sexual relationship as a preventative measure? Just like previously, we form the following conditions:
             </p>
             <ul>
-                <li class="list">If 0%—10% of the population is HIV+, uninfected and unsuspected individuals remain in forming new relationships.</li>
-                <li class="list">If 10%—20% of the population is HIV+, few uninfected and unsuspected individuals are starting to become wary of forming new relationships (90% chance of forming new a relationship).</li>
-                <li class="list">And if it is greater than 20%, HIV- & HIV? individuals are cautious about forming new relationships (30% chance of forming new a relationship).</li>
+                <li class="list">If 0%—10% of the population is HIV+, uninfected and unsuspected individuals remain in forming new sexual relationships.</li>
+                <li class="list">If 10%—20% of the population is HIV+, few uninfected and unsuspected individuals are starting to become wary of forming new sexual relationships (90% chance of forming new a relationship).</li>
+                <li class="list">And if it is greater than 20%, HIV- & HIV? individuals are cautious about forming new sexual relationships (30% chance of forming new a relationship).</li>
             </ul>
-            <div class="video-box">
-                <video src="static/videos/06 Relationships.mp4" controls controlslist="nofullscreen nodownload noremoteplayback noplaybackrate foobar" loop>
-                    Sorry, your browser doesn't support embedded videos.
-                </video>
-            </div>
+            <iframe id="html-sim-relationship-tendency" class="simulation-embed-small" src="/static/files/specifics/Relationship Tendency.html" style="display:none;"></iframe>
             <p class="main">
-                Just like the previous preventative measures, this one also leveled out the positive cases among the population. Since the 194th month when 29.5% of the population is infected, no new infections occurred. CDC (2020) says that abstinence is always effective against infection, and limiting sexual partners and activities lowers the chance of infection since one of its mediums of transmission is anal sex<sup><a href="https://hivrisk.cdc.gov/can-decrease-hiv-risk/" target="_blank">[13]</a></sup>.
+                Just like the previous preventative measures, this one also leveled out the positive cases among the population. When the reported positive cases reached around 25% of the population, people are becoming more hesitant in entering sexual relationships, thus weakening the spread of the disease.  CDC (2020) says that abstinence is always effective against infection, and limiting sexual partners and activities lowers the chance of infection since one of its mediums of transmission is anal sex<sup><a href="https://hivrisk.cdc.gov/can-decrease-hiv-risk/" target="_blank">[13]</a></sup>.
             </p>
             <p class="main">
                 Now that we have explored each of the preventative measures and decision-making against infection from HIV, we are going to amass condom use, testing frequency, and partnering probability into a single simulation and formulate the following conditions:
@@ -178,29 +162,33 @@
                 <li class="list">If 10%—20% of the population is HIV+, HIV- & HIV? individuals increase their condom use, occasionally get tested, and be wary of forming new relationships.</li>
                 <li class="list">And if it is greater than 20%, HIV- & HIV? individuals will use condoms, regularly get tested, and be cautious about forming new relationships.</li>
             </ul>
-            <div class="video-box">
-                <video src="static/videos/07 All Precaution.mp4" controls controlslist="nofullscreen nodownload noremoteplayback noplaybackrate foobar" loop>
-                    Sorry, your browser doesn't support embedded videos.
-                </video>
-            </div>
-            <a class="jump" href="#embedded-sim">
-                <button class="jump">Jump to the interactive simulation</button>
+            <iframe id="html-sim-all-precautions" class="simulation-embed-small" src="/static/files/specifics/All Precautions.html" style="display:none;"></iframe>
+            <a class="jump" href="#embedded-sim-all">
+                <button class="jump">Jump to the comprehensive interactive simulation</button>
             </a>
             <p class="main">
-                When the three preventative measures—condom use, frequent testing, and limiting sexual activities—were observed by the population, the infected cases plateaued at 16.25% in the 129th month. It is also evident in the simulation the sudden decrease of unsuspected individuals (HIV?) since frequent testing took effect early on.
+                When the three preventative measures—condom use, frequent testing, and limiting sexual activities—are being observed by the population, the infected cases plateaus much earlier and quicker. If the reported cases rises much faster, people immediately follow the measures, flattening the curve almost immediately.
             </p>
             <p class="main">
                 Out of the three simulated preventative measures, abstinence and limiting sexual activity proved to be the most effective. CDC (2019) estimates that in receptive anal intercourse, the risk of contracting HIV is about 138 per 10,000 exposures<sup><a href="https://www.cdc.gov/hiv/risk/estimates/riskbehaviors.html" target="_blank">[14]</a></sup>. Controlling one's sexual activity reduces the number of exposures, and abstaining 100% eliminates exposure.
             </p>
             <p class="main">
-                Following this, consistent condom use is currently one of the best ways to reduce exposure while maintaining sexual activity. Although not fully effective compared to abstinence, it is about 70% successful in preventing infection when always used according to the analysis and interviews conducted by Smith et al. (2015). They also noted that occasional use to never using the contraceptive provides no significant protection against exposure, greatly increasing the chance of infection<sup><a href="https://journals.lww.com/jaids/FullText/2015/03010/Condom_Effectiveness_for_HIV_Prevention_by.14.aspx" target="_blank">[11]</a></sup>.
+                Moreover, consistent condom use is currently one of the best ways to reduce exposure while maintaining sexual activity. Although not fully effective compared to abstinence, it is about 70% successful in preventing infection when always used according to the analysis and interviews conducted by Smith et al. (2015). They also noted that occasional use to never using the contraceptive provides no significant protection against exposure, greatly increasing the chance of infection<sup><a href="https://journals.lww.com/jaids/FullText/2015/03010/Condom_Effectiveness_for_HIV_Prevention_by.14.aspx" target="_blank">[11]</a></sup>.
             </p>
             <p class="main">
-                Finally, frequent testing proved to be the least effective in the simulations. Although, it should not be used as the only preventative measure because in and of itself is not wholly a preventative measure. Testing only determines the HIV serostatus of an individual. It does not actively and directly prevent someone from contracting the virus. When disclosed between to-be partners, it influences both of their decision-making regarding sexual activities. For example, a person might refuse to have sexual relations with an HIV+ person. Furthermore, Marcus et al. (2017) concluded that periodic testing to update one's serostatus awareness and increased disclosure of serostatus are confirmed to be crucial to reducing HIV exposure, for they have an influence on the safe-sex practices of the partners<sup><a href="https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-017-2814-x" target="_blank">[15]</a></sup>.
+                Finally, frequent testing proved to be almost on par with persistent condom use. Although, it should not be used as the only preventative measure because in and of itself is not wholly a preventative measure. That is why in its simulation, the cases plateaued not entirely because of testing, but because HIV+ persons always practiced safe sex.
+            </p>
+            <p class="main">
+                Testing only determines the HIV serostatus of an individual. It does not actively and directly prevent someone from contracting the virus. When disclosed between to-be partners, it influences both of their decision-making regarding sexual activities. For example, a person might refuse to have sexual relations with an HIV+ person. Furthermore, Marcus et al. (2017) concluded that periodic testing to update one's serostatus awareness and increased disclosure of serostatus are confirmed to be crucial to reducing HIV exposure, for they have an influence on the safe-sex practices of the partners<sup><a href="https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-017-2814-x" target="_blank">[15]</a></sup>.
             </p>
             <p class="main">
                 All in all, combining the said measures is going to be the most effective in mitigating HIV exposure as demonstrated in the final simulation. NIH (2021) instructs that one should always practice safe sex by using condoms for it reduces the risk infection from HIV and other sexually transmitted diseases. In addition, talk with your medical practitioner to assess your risks and get frequent testing. Lastly, be mindful of and know your partner's STD and health history<sup><a href="https://www.nichd.nih.gov/health/topics/menshealth/conditioninfo/risk" target="_blank">[16]</a></sup>.
             </p>
+            <h3 id="embedded-sim-all" class="section-divider">The comprehensive interactive simulation & model</h3>
+            <p class="main">
+                You can download the <a href="static/files/Raw vs Rubber - HIV Propagation Simulation.html" download>HTML simulation here</a> and run it in your browser. You can also download the <a href="static/files/Raw vs Rubber - HIV Propagation Simulation.nlogo" download>NetLogo file of the model here</a>, but you need a NetLogo client or NetLogo Web to run it.
+            </p>
+            <iframe id="html-sim-all-interactive" class="simulation-embed" src="/static/files/Raw vs Rubber - HIV Propagation Simulation.html" style="display:none;"></iframe>
             <h3 class="section-divider">References</h3>
             <ol>
                 <li class="list">PublicHealth.org. (2022, January 10). HIV and AIDS: An Origin Story. PublicHealth.org. https://www.publichealth.org/public-awareness/hiv-aids/origin-story/</li>
@@ -220,11 +208,6 @@
                 <li class="list">Marcus, U., Schink, S. B., Sherriff, N., Jones, A.-M., Gios, L., Folch, C., Berglund, T., Nöstlinger, C., Niedźwiedzka-Stadnik, M., Dias, S. F., Gama, A. F., Naseva, E., Alexiev, I., Staneková, D., Toskin, I., Pitigoi, D., Rafila, A., Klavs, I., Mirandola, M., & Sialon II Network. (2017, November 25). HIV serostatus knowledge and serostatus disclosure with the most recent anal intercourse partner in a European MSM sample recruited in 13 cities: results from the Sialon-II study. BMC Infectious Diseases, 17(730). https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-017-2814-x</li>
                 <li class="list">National Institutes of Health. (2021, November 18). How can men reduce the risk of getting a sexually transmitted disease (STD)? National Institute of Child Health and Human Development. https://www.nichd.nih.gov/health/topics/menshealth/conditioninfo/risk</li>
             </ol>
-            <h3 id="embedded-sim" class="section-divider">The interactive simulation & model</h3>
-            <p class="main">
-                You can download the <a href="static/files/Raw vs Rubber - HIV Propagation Simulation.html" download>HTML simulation here</a> and run it in your browser. You can also download the <a href="static/files/Raw vs Rubber - HIV Propagation Simulation.nlogo" download>NetLogo file of the model here</a>, but you need a NetLogo client or NetLogo Web to run it.
-            </p>
-            <iframe id="html-sim" class="simulation-embed" src="/static/files/Raw vs Rubber - HIV Propagation Simulation.html" style="display:none;"></iframe>
         </article>
     </div>
 
@@ -234,7 +217,7 @@
     <script>
         window.onload = function ()
         {
-            $("#html-sim").show();
+            $("#html-sim-no-precaution, #html-sim-using-condoms, #html-sim-frequent-testing, #html-sim-relationship-tendency, #html-sim-all-precautions, #html-sim-all-interactive").show();
         }
     </script>
 </body>

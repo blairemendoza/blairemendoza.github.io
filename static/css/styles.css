@@ -133,7 +133,13 @@ video.simulation {
 
 .simulation-embed {
     width: 100%;
-    height: 875px;
+    height: 860px;
+    border: none;
+}
+
+.simulation-embed-small {
+    width: 100%;
+    height: 680px;
     border: none;
 }
 

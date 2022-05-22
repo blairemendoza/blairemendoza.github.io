@@ -143,7 +143,7 @@ end
 
 to test
   if gets-tested? [
-    if random-float 3 < testing-frequency [
+    if random-float 10 < testing-frequency [
       if positive? [
         set known? true ] ] ]
   if infection-duration > symptoms-onset [
@@ -179,8 +179,8 @@ to set-testing
   let percentage (count turtles with [ known? ] / population) * 100
   ifelse percentage > 10
     [ ifelse percentage > 20
-        [ set testing-frequency random-float 2 + 1 ]
-        [ set testing-frequency random-float 1 ] ]
+        [ set testing-frequency random-float 1 ]
+        [ set testing-frequency random-float 0.25 ] ]
     [ set testing-frequency 0 ]
 end
 
